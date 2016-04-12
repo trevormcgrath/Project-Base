@@ -54,7 +54,7 @@ require('jit-grunt')(grunt);
         tasks: ['sass:dev']
       },
       html: {
-        files: ['*.html']
+        files: ['*.html'] // which files to watch
       }
     }
 
